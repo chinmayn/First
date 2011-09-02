@@ -1,8 +1,9 @@
+#Fibonacci series
 x=input("What is the desired length of the Fibonacci sequence?")
 if x==1:
-    print "1"
+    print "[1]"
 elif x==2:
-    print "1 1"
+    print "[1,1]"
 else:
     sequence = [1,1]
     a=2
