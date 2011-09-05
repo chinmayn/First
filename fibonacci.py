@@ -21,8 +21,7 @@ else:
     b=1
     print a,
     print b,
-    i=3
-    while i<=x:
+    for i in range(3,x+1,1):
         c=a+b
         print c,
         a=b
